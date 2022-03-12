@@ -2,6 +2,7 @@
   "name": "selenium-webdriver",
   "version": "1.0.0",
   "dependencies": {
+    "prompt": "^1.2.2",
     "selenium-webdriver": "^4.1.1"
   },
   "type": "module"
