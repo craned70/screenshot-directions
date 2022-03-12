@@ -4,6 +4,6 @@ This is a program written using selenium-webdriver to open google maps, find wha
 
 screenshot is saved to /build
 
-requires chromedriver in your $PATH
+## requires chromedriver in your $PATH
 
 https://chromedriver.chromium.org/downloads
