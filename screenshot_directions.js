@@ -31,7 +31,7 @@ setTimeout(() => {
     .then(() => {
         return driver.takeScreenshot();
     }).then((value) => {
-        fs.writeFile('img.png', value, 'base64', (err) => {
+        fs.writeFile('build/img.png', value, 'base64', (err) => {
             if (err) {
                 console.log(err);
             } else {
