@@ -7,3 +7,8 @@ screenshot is saved to /build
 ## requires chromedriver in your $PATH
 
 https://chromedriver.chromium.org/downloads
+
+## for windows
+
+may need to change chrome settings to NOT run as admin.
+tested & written to run on MacOS
