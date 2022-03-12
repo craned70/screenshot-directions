@@ -4,7 +4,7 @@ import readline from "readline";
 
 const googleMaps = "https://www.google.com/maps";
 const mapsInputField =
-  "/html/body/div[3]/div[9]/div[3]/div[1]/div[1]/div[1]/div[2]/form/div/div[3]/div/input[1]";
+  '//*[@aria-label="Search Google Maps"]';
 
 const driver = new webdriver.Builder().forBrowser("chrome");
 const input = readline.createInterface({
